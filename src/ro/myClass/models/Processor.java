@@ -22,7 +22,7 @@ public class Processor extends Product {
         this.cores = Integer.parseInt(proprietes[7]);
         this.threads = Integer.parseInt(proprietes[8]);
     }
-    public String showCPU(){
+    public String descriptionCPU(){
         String text = "";
         text += "ID: " + super.getId();
         text += "\nBrand: " + super.getBrand();
