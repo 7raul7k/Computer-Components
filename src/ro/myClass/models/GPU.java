@@ -26,7 +26,7 @@ public class GPU extends Product {
         text += "ID: " + super.getId();
         text += "\n Brand: " + super.getBrand();
         text += "\n Model: " + super.getModel();
-        text += "\n Price: " + super.getPrice();
+        text += "\n Price: " + super.getPrice() ;
         text += "\n Frequency: " + frequency;
         text += "\n Memory Size: " + memorySize;
         text += "\n Memory Type: " + memoryType;

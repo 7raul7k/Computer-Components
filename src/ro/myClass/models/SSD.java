@@ -23,6 +23,8 @@ public class SSD extends Product{
         text += "ID: " + super.getId();
         text += "\n Brand: " + super.getBrand();
         text += "\n Model: " + super.getModel();
+        text += "\n Price: " + super.getPrice();
+        text += "\n Capacity: " + capacity;
         text += "\n Size: " + size;
         text += "\nInterface: " + interfaceSSD;
         text += "\n====================================\n";

@@ -1,7 +1,10 @@
 package ro.myClass;
 
+import ro.myClass.Controllers.ControllerProduct;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ControllerProduct controllerProduct = new ControllerProduct();
+        controllerProduct.showDescription();
     }
 }

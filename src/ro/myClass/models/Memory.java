@@ -22,7 +22,8 @@ public class Memory extends Product {
         String text= "";
         text += "ID: " + super.getId();
         text += "\n Brand: " + super.getBrand();
-        text += "\n Model: " + super.getPrice();
+        text += "\n Model: " + super.getModel();
+        text += "\n Price: " + super.getPrice();
         text += "\n Frequency: " + frequency;
         text += "\n MatchedPair: " + matchedPair;
         text += "\n Capacity: " + capacity;
